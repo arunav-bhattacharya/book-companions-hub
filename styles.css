@@ -223,8 +223,8 @@ button { font: inherit; color: inherit; cursor: pointer; }
 .sec-card__title { font-size: 1.12rem; font-weight: 620; color: var(--txt-strong); line-height: 1.28; }
 .sec-card__desc { font-size: .92rem; color: var(--mut); line-height: 1.5; flex: 1; }
 .sec-card__foot { margin-top: 14px; }
-.sec-card__cta { display: inline-flex; align-items: center; gap: 6px; font-size: .85rem; font-weight: 550; color: var(--accent); }
-.sec-card:hover .sec-card__cta { gap: 9px; }
+.sec-card__time { display: inline-flex; align-items: center; gap: 7px; font-size: .84rem; font-weight: 550; color: var(--accent); }
+.sec-card__time svg { width: 14px; height: 14px; flex: none; }
 
 /* ---- Footer -------------------------------------------------------------- */
 .footer { margin-top: 56px; border-top: 1px solid var(--line); }
